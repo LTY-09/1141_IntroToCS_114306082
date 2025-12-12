@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.input-section label {
+    margin-right: 15px;
+}
+
+.input-section input {
+    padding: 8px;
+    margin: 5px;
+    width: 150px;
+}
+
+.input-section button {
+    padding: 10px 30px;
+    background-color: silver;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-section button:hover {
+    background-color: silver;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: silver;
+    color: white;
+}
+
+table tfoot td {
+    background-color: white;
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: white;
+}
